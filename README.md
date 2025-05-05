@@ -53,7 +53,7 @@ TaskFlow is a beautiful, intuitive task management application with powerful tim
    ```
 
 3. Launch the application:
-   - Simply open `index.html` in your web browser
+   - Simply open `taskFlow.html` in your web browser
    - No server or build process required
 
 ### Usage
