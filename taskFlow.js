@@ -1485,9 +1485,12 @@ function clearAllTasks() {
   });
 
   // Remove only task-related localStorage entries
-  localStorage.removeItem("tasks");       // or "taskData" if that’s what you use
+  localStorage.removeItem("tasks");       // or "taskData" if that's what you use
   localStorage.removeItem("subtasks");    // if applicable
   localStorage.removeItem("activeTask");  // optional if you track this
+
+  // Clear DOM elements after animation
+  setTimeout(() => taskList.innerHTML = '', 300);
 }
 
 //-------------------------------------------------------
